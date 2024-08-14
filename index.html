@@ -4,37 +4,43 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Tienda Muebles</h1>
+		<h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+		<div class="contenedor-navegacion">
+			<nav class="nav-principal contenedor">
+				<a class="enlace" href="index.html">Inicio</a>
+				<a class="enlace" href="nosotros.html">Nosotros</a>
+				<a class="enlace" href="tienda.html">Tienda</a>
+				<a class="enlace" href="blog.html">Blog</a>
+				<a class="enlace" href="galeria.html">Galería</a>
+				<a class="enlace" href="contacto.html">Contacto</a>
+			</nav>
+		</div>
 
-		<nav>
-			<a href="index.html">Inicio</a>
-			<a href="nosotros.html">Nosotros</a>
-			<a href="tienda.html">Tienda</a>
-			<a href="blog.html">Blog</a>
-			<a href="galeria.html">Galería</a>
-			<a href="contacto.html">Contacto</a>
-		</nav>
+		<div class="hero"></div>
 
-		<section>
-			<h2>Categorías de Producto</h2>
-
-			<div>
-				<img src="img/categoria1.jpg" alt="Imagen Categoría" />
-				<a href="">Oficina</a>
-			</div>
-			<div>
-				<img src="img/categoria2.jpg" alt="Imagen Categoría" />
-				<a href="">Hogar</a>
-			</div>
-			<div>
-				<img src="img/categoria3.jpg" alt="Imagen Categoría" />
-				<a href="">Cocina</a>
+		<section class="contenedor">
+			<h2>Categorías de <span>Producto</span></h2>
+			<div class="listado-categoria">
+				<div>
+					<img src="img/categoria1.jpg" alt="Imagen Categoría" />
+					<a href="">Oficina</a>
+				</div>
+				<div>
+					<img src="img/categoria2.jpg" alt="Imagen Categoría" />
+					<a href="">Hogar</a>
+				</div>
+				<div>
+					<img src="img/categoria3.jpg" alt="Imagen Categoría" />
+					<a href="">Cocina</a>
+				</div>
 			</div>
 		</section>
 
-		<section>
+		<section class="sobre-nosotros">
 			<div>
 				<h2>Sobre Nosotros</h2>
 				<p>
@@ -159,7 +165,7 @@
 			</div>
 			<div>
 				<h3>Sobre Nosotros</h3>
-				<nav>
+				<nav class="navegacion">
 					<a href="#">Nuestra Historia</a>
 					<a href="#">Mision Vision y Valores</a>
 					<a href="#">Carreras</a>
